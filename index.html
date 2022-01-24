@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://bootswatch.com/5/lumen/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e8ec45fa31.js" crossorigin="anonymous"></script>
+    <title>Carrito</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrito.html" id="carrito">Carrito</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="text" placeholder="Buscar" id="lblBuscar">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="buscador">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+            <h1 class="h1 text-center">Productos</h1>
+            <div class="row" id="listaProductos"></div>
+      </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
